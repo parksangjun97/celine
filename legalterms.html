@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CELINE</title>
+    <!-- JQuery Core -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- bxSlider file's -->
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/celine.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+    <link rel="icon" href="images/celinesymbol.svg" type="image/svg+xml">
+</head>
+<body>
+    <div id="searchPanel">
+        <div>
+            <input type="search" placeholder="SEARCH" title="search" class="bLs30">
+            <input type="button" value="close" class="material-symbols-outlined btn_close positionA bg-sizeC">
+        </div>
+    </div>
+    <div id="cartPanel">
+        <div class="displayF-sb">
+            <h2 class="bLs30">CART</h2>
+            <input type="button" value="close" class="material-symbols-outlined btn_close bg-R bg-sizeC">
+        </div>
+        <div>
+            <p class="mDs22 textC">Your order qualifies for free shipping and free returns</p>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="../images/cartorder.png" alt="cartOrder" class="floatL">
+                        <figcaption class="floatL">
+                            <h3 class="mDs16">MARINIÈRE CARDIGAN JACKET IN WOOL</h3>
+                            <dl class="rgs14">
+                                <dt class="floatL">SIZE : </dt>
+                                <dd>44</dd>
+                                <dt class="floatL">QUANTITY : </dt>
+                                <dd>1</dd>
+                                <dt class="floatL">3600 </dt>
+                                <dd>USD</dd>
+                            </dl>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <dl>
+                <dt class="mDs22">Item Subtotal: (Not Including Tax or Shipping)</dt>
+                <dd class="bLs30">3600 USD</dd>
+            </dl>
+            <a href="checkout.html" class="bLs30 displayB textC">CHECK OUT</a>
+        </div>
+    </div>
+    <header class="active">
+        <div class="displayF-sb positionMR">
+            <h1 class="positionMA"><a href="index.html" class="displayB"><img src="images/logo.png" alt="welcome to CELINE"></a></h1>
+            <nav class="texttdC">
+                <button class="mui positionMR display2mF">
+                    <span class="displayB"></span>
+                    <span class="displayB"></span>
+                    <span class="displayB"></span>
+                </button>
+                <ul class="positionMA">
+                    <li class="displaytdI">
+                        <b class="mDs16 displaymB positionMR">SHOP</b>
+                        <div class="bg-R">
+                            <ul class="lTs16 texttdL">
+                                <li class="displaytdB">
+                                    <strong class="bLs18 displaytdB">BAG</strong>
+                                    <a href="list_handbag.html" class="displaymB displaytdI">HANDBAG</a>
+                                    <a href="list_minibag.html" class="displaymB displaytdI">MINIBAG</a>
+                                </li>
+                                <li class="displaytdB">
+                                    <strong class="bLs18 displaytdB">READY TO WEAR</strong>
+                                    <a href="list_coats.html" class="displaymB displaytdI">COAT</a>
+                                    <a href="list_jacket.html" class="displaymB displaytdI">JACKET</a>
+                                    <a href="list_knitwear.html" class="displaymB displaytdI">KNITWEAR</a>
+                                    <a href="list_pants.html" class="displaymB displaytdI">PANTS AND SHORTS</a>
+                                </li>
+                                <li class="displaytdB">
+                                    <strong class="bLs18 displaytdB">SHOES</strong>
+                                    <a href="list_boots.html" class="displaymB displaytdI">BOOTS</a>
+                                    <a href="list_loafers.html" class="displaymB displaytdI">LOAFERS</a>
+                                    <a href="list_sneakers.html" class="displaymB displaytdI">SNEAKERS</a>
+                                </li>
+                                <li class="displaytdB">
+                                    <strong class="bLs18 displaytdB">JEWELLERY</strong>
+                                    <a href="list_earrings.html" class="displaymB displaytdI">EARRINGS</a>
+                                    <a href="list_necklaces.html" class="displaymB displaytdI">NECKLACES</a>
+                                    <a href="list_rings.html" class="displaymB displaytdI">RINGS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="displaytdI">
+                        <b class="mDs16 displaymB positionMR">COLLECTIONS</b>
+                        <ul class="texttdC bg-tdScover">
+                            <li><strong class="bLs38 displaytdB">COLLECTIONS LOOKBOOK</strong></li>
+                            <li><a href="lookbookWinter.html" class="lTs28 displaytdI">WINTER 2024</a></li>
+                            <li><a href="lookbookSummer.html" class="lTs28 displaytdI">SUMMER 2024</a></li>
+                        </ul>
+                    </li>
+                    <li class="displaytdI positiontdR"><a href="list_maison.html" class="mDs16 displaymB">MAISON</a></li>
+                    <li class="displaytdI positiontdR"><a href="list_perfumerie.html" class="mDs16 displaymB">PARFUMERIE</a></li>
+                </ul>
+            </nav>
+            
+            <div class="inputbox displayF-fe texttdR">
+                <input type="button" value="search" class="material-symbols-outlined bg-CR displaytdI" data-panel="search">    
+                <a href="login.html" class="material-symbols-outlined person bg-CR displaytdI">person</a>                   
+                <input type="button" value="shopping_cart" class="material-symbols-outlined bg-CR displaytdI" data-panel="cart">
+            </div>
+        </div>
+    </header>
+    
+    <div class="accountContents positionR">
+        <button id="footerMobileMenuToggle" class="mobile-menu-btn positionR">LEGAL TERMS</button>
+        <aside class="shoppingAside floattdL positionMA">
+            <ul class="bLs22">
+                <li class="active">
+                    <a href="legalterms.html">LEGAL TERMS</a>
+                </li>
+                <li>
+                    <a href="privacypolicy.html">PRIVACY POLICY</a>
+                </li>
+                <li>
+                    <a href="supplytransparency.html">SUPPLY TRANSPARENCY</a>
+                </li>
+            </ul>
+        </aside>
+        
+
+        <article class="floattdL">
+            <h2 class="s60">LEGAL TERMS</h2>
+            <ul class="fDetail lTs14">
+                <li>
+                    <b class="bLs16 displayB">LEGAL NOTICE</b>
+                    <p>
+                        THIS WEBSITE WWW.CELINE.COM (THE ‘WEBSITE’) IS PUBLISHED BY CELINE SA, A PUBLIC LIMITED COMPANY WITH CAPITAL OF<br>FICE
+                        €2,802,576.00, REGISTERED ON THE PARIS TRADE AND COMPANIES REGISTER UNDER THE NUMBER  572 034 361.<br>
+                        REGISTERED OFFICE: 16 RUE VIVIENNE, 75002 PARIS.<br>
+                        TEL. : +33 1 70 48 92 92.
+                    </p>
+                </li>
+                <li>
+                    <b class="bLs16 displayB">TERMS OF USE</b>
+                    <p>
+                        USE OF THE WEBSITE ACCESSIBLE AT WWW.CELINE.FR (THE “WEBSITE”) IS SUBJECT TO THESE GENERAL TERMS<br>
+                        AND CONDITIONS OF USE (THE “GENERAL TERMS AND CONDITIONS OF USE”). IN USING THE WEBSITE, YOU ACKNOWLEDGE
+                        HAVING READ, UNDERSTOOD AND UNRESERVEDLY ACCEPTED THESE GENERAL TERMS AND CONDITIONS OF USE.
+                    </p>
+                </li>
+            </ul>
+            
+            <ol class="lTs14">
+                <li>
+                    <b class="bL blueB displayB">1. INTELLECTUAL PROPERTY RIGHTS</b>
+                    <p>
+                        ALL DESIGN, TEXT, GRAPHICS, LOGOS, BUTTON ICONS, IMAGES, AUDIO AND VIDEO CLIPS, THE SELECTION AND ARRANGEMENT<br>
+                        THEREOF, AND ALL SOFTWARE ON THE SITES IS COPYRIGHT (C) 2017 CELINE, ALL RIGHTS RESERVED. THE WEBSITE IS PROTECTED
+                        BY COPYRIGHT, TRADEMARK LAW AND, MORE GENERALLY, BY LEGISLATION RELATING TO INTELLECTUAL PROPERTY, WITH EFFECT
+                        WORLDWIDE, BOTH IN RELATION TO ITS PRESENTATION (OPTIONS, PLAN, LAYOUT, ETC.) AND TO EACH COMPONENT PARTIES
+                        COMPRISING ITS CONTENT (TRADEMARKS, TEXT, IMAGES, VIDEOS, ILLUSTRATIONS, LOGOS, ETC.). CELINE, ITS AFFILIATES
+                        AND/OR THE HOLDERS OF THE WEBSITE’S INTELLECTUAL PROPERTY RIGHTS ARE THE HOLDERS OF ALL INTELLECTUAL PROPERTY
+                    </p>
+                </li>
+                <li>
+                    <b class="bL blueB displayB">2. LINKS</b>
+                    <p>
+                        EXPRESS PRIOR AUTHORISATION MUST BE OBTAINED IN WRITING FROM CELINE FOR THE CREATION OF HYPERTEXT LINKS<br>
+                        TO ANY ONE OF THE PAGES OR COMPONENT PARTS OF THE WEBSITE
+                    </p>
+                </li>
+                <li>
+                    <b class="bL blueB displayB">3. OBLIGATION OF THE USER</b>
+                    <p>
+                        YOU MUST BE 13 YEARS OR OLDER TO ACCESS OR USE THE WEBSITE OR ANY CONTENT, OR SERVICES. BY ACCESSING<br>
+                        OR USING THE WEBSITE OR ANY CONTENT OR SERVICES, YOU REPRESENT THAT YOU ARE AT LEAST 13 YEARS OLD AND<br>
+                        IF YOU ARE A MINOR THAT YOU HAVE OBTAINED YOUR PARENT’S OR LEGAL GUARDIAN’S CONSENT PRIOR TO USING THE WEBSITE.
+                    </p>
+                </li>
+                <li>
+                    <b class="bL blueB displayB">4. LIMITATION OF LIABILITY; INDEMNIFICATION</b>
+                    <p>
+                        SUBJECT TO THE SPECIFIC PROVISIONS APPLICABLE TO ON-LINE SALES AND TO CONSUMER PROTECTION LAWS
+                    </p>
+                </li>
+                <li>
+                    <b class="bL blueB displayB">5. MAINTENANCE, AVAILABILITY</b>
+                    <p>
+                        CELINE WILL MAKE ITS BEST EFFORTS TO MAINTAIN A REASONABLE LEVEL OF WEBSITE FUNCTIONALITY AND AVAILABILITY.
+                        CELINE RESERVES THE RIGHT TO LIMIT ACCESS TO THE WEBSITE AND ITS USE BY THE USER AT ANY TIME AND WITHOUT NOTICE
+                        IN ORDER TO CARRY OUT MAINTENANCE WORK AND MAKE CHANGES TO THE WEBSITE. CELINE MAY NOT BE HELD LIABLE
+                        IN THE EVENT OF ANY INTERRUPTION TO ACCESS CAUSED BY SUCH MAINTENANCE OR UPDATING OPERATIONS.
+                    </p>
+                </li>
+                <li>
+                    <b class="bL blueB displayB">6. ADDITIONAL TERMS</b>
+                    <p>
+                        UNLESS OTHERWISE AMENDED, THESE GENERAL TERMS AND CONDITIONS OF USE WILL EXCLUSIVELY GOVERN YOUR ACCESS
+                        TO AND USE OF THE WEBSITE, AND IS THE COMPLETE AND EXCLUSIVE UNDERSTANDING AND AGREEMENT BETWEEN<br>
+                        THE PARTIES, AND SUPERSEDES ANY ORAL OR WRITTEN PROPOSAL, AGREEMENT OR OTHER COMMUNICATION BETWEEN<br>
+                        THE PARTIES, REGARDING YOUR ACCESS TO AND USE OF THE WEBSITE.
+                    </p>
+                </li>
+            </ol>
+        </article>
+    </div> 
+
+    <footer>
+        <div>
+            <div class="displaymF">
+                <h2 class="textC displaymB displaytdi"><img src="images/footerlogo.png" alt="goodbye CELINE"></h2>
+                <ul class="displaymF">
+                    <li><a href="shoppingFaq.html">FAQ</a></li>
+                    <li class="displaytdS"><a href="legalterms.html">LEGAL TERMS</a></li>
+                    <li class="displaytdS"><a href="privacypolicy.html">PRIVACY POLICY</a></li>
+                    <li class="displaytdS"><a href="supplytransparency.html">SUPPLY TRANSPARENCY</a></li>
+                </ul>
+                <address>
+                    <ul class="lT">
+                        <li>PHONE : <a href="tel:+18338474860">+1 833 847 4860</a></li>
+                        <li>CUSTOMER SERVICE : <a href="mailto:clientservice.us@celine.com">CLIENTSERVICE.US@CELINE.COM</a></li>
+                        <li>CONTACT FORM : SEND INQUIRY</li>
+                        <li>
+                            <label for="selectStore">REQUEST AN APPOINTMENT :</label>
+                            <select id="selectStore">
+                                <option value="default">SELECT A STORE</option>
+                                <option value="japan">JAPAN</option>
+                                <option value="china">CHINA</option>
+                                <option value="usa">USA</option>
+                                <option value="canada">CANADA</option>
+                                <option value="uk">UK</option>
+                                <option value="france">FRANCE</option>
+                                <option value="germany">GERMANY</option>
+                                <option value="swiss">SWISS</option>
+                                <option value="spain">SPAIN</option>
+                                <option value="denmark">DENMARK</option>
+                            </select>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="displaytdF">
+                <p class="s18 textC">©2024 CELINE. All rights reserved</p>
+                <ul class="displayF-cn">
+                    <li><a href="https://www.facebook.com/celineofficial" target="_blank" class="displayB bg-CR">facebook</a></li>
+                    <li><a href="https://x.com/celineofficial" target="_blank" class="displayB bg-CR">twitter</a></li>
+                    <li><a href="https://www.instagram.com/celine" target="_blank" class="displayB bg-CR">instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
