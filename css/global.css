@@ -2,11 +2,7 @@ body,input{font-family: 'brown-pro';}
 i{font-style: normal;}
 ol,ul{list-style: none;}
 mark{background-color: transparent;}
-select{
-    border: none;
-    font-family: inherit;
-}
-
+select{border: none;font-family: inherit;}
 input[type="button"],
 input[value="close"].material-symbols-outlined .btn_close,
 #searchPanel input[type="search"]{border: none;}
@@ -45,6 +41,7 @@ input.Obtn3,input.Obtn4{background-color: var(--green01);padding: 5px var(--sp20
 .detailAC4{border-bottom: 1px solid var(--gs07);border-left: none;border-right: none;}
 header.active{background-color: rgba(255, 255, 255, 1);}
 header > div nav > ul > li:last-of-type > a ,header > div nav > ul > li:nth-of-type(3) > a,header > div nav ul > li > b,
+header.active .inputbox > *{color: var(--gs07);}
 input[type="search"]{box-sizing: border-box;}
 #searchPanel,#cartPanel,header{position: fixed;z-index: 100;}
 #searchPanel{padding: 0 3%;width: 100%;}
@@ -70,19 +67,9 @@ footer > div div:last-child ul li:nth-of-type(3) a:hover{background-image: url("
 footer > div div:last-child a{text-indent: -9999px;width: 25px;transition: background-image 0.3s ease-in-out;}
 footer > div > div:first-of-type address{font-style: inherit;}
 footer > div > div:first-of-type{flex-wrap: wrap;}
-footer select{
-    appearance: none;
-    /* border: none; */
-    background: transparent;
-    font-size: inherit;
-    color: var(--gs01);
-    cursor: default;
-}
-footer select option{
-    color: var(--gs07);
-}
+footer select{appearance: none;background: transparent;font-size: inherit;color: var(--gs01);cursor: default;}
+footer select option{color: var(--gs07);}
 .inputbox > *{color: var(--gs01); text-shadow: 2px 1px 1px rgba(2,1,1,0.2); font-size: 20px; padding: 0;}
-header.active .inputbox > *{color: var(--gs07);}
 @media screen and (max-width:767px){
     #searchPanel input.material-symbols-outlined{top: 30%;right: 7%;}
     #searchPanel input[type="search"]{line-height: 70px;}
