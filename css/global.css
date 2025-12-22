@@ -81,7 +81,7 @@ footer select option{color: var(--gs07);}
     #cartPanel > div:last-of-type figcaption{width: 50%;}
     #cartPanel > div:last-of-type > a{max-width: 250px;}
     #cartPanel > div:last-of-type > a,header,footer > div h2 img{width: 100%;}
-    header{z-index: 10;left: 0;transition: background-color .35s ease-out;background-color: transparent;line-height: 70px;}
+    header{z-index: 10;left: 0;transition: background-color 0.35s ease-out;background-color: transparent;line-height: 70px;}
     header > div{height: 70px;}
     header > div,header > div nav button.mui{align-items: center;}
     header > div nav ul > li > b::after{position: absolute;}
