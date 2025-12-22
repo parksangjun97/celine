@@ -2,7 +2,7 @@ body,input{font-family: 'brown-pro';}
 i{font-style: normal;}
 ol,ul{list-style: none;}
 mark{background-color: transparent;}
-select{border: none;font-family: inherit;}
+select{border: none;font-family: inherit;color: var(--gs07);}
 input[type="button"],
 input[value="close"].material-symbols-outlined .btn_close,
 #searchPanel input[type="search"]{border: none;}

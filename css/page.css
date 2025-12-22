@@ -85,7 +85,7 @@
 .listContainer > div:nth-of-type(2) > div:last-child{right: 2.9%;}
 .listContainer > .recentlyBox > h3,.accountContents .serviceContents > label,.accountContents #trackPanel > div:nth-of-type(2),.accountContents #returnPanel .lTs12 span:nth-of-type(2){margin-bottom: var(--sp40);}
 .detailContainer > div:nth-of-type(2),.detailContainer > div:nth-of-type(2) > div > aside > div,.checkoutContents form fieldset:first-of-type,.accountContents .supportContents p:last-of-type{margin-bottom: var(--sp110) !important;}
-.detailContainer > div:nth-of-type(2) > div > aside form fieldset input[type="button"][value="-Size Guide-"]{right: 0;font-size: 15px;}
+.detailContainer > div:nth-of-type(2) > div > aside form fieldset input[type="button"][value="-Size Guide-"]{right: 0;font-size: 15px;color: var(--gs07);}
 .detailContainer > div:nth-of-type(2) > div > aside form fieldset div,.detailContainer > div:nth-of-type(2) > div > aside form fieldset strong,.detailContainer > div:nth-of-type(2) div h4,.forgotContents form b,.createContents ul,.emailContents b,.checkoutContents form fieldset legend,.accountContents > div > div h3,.accountContents #returnPanel address p,.accountContents #returnPanel select,.accountContents #returnPanel .lTs12,.accountContents article ul li h3,.accountContents article ul li > b,.accountContents article > ol li .blueB,.accountContents article > ol li .redB,.accountContents article > .bLs16,.accountContents article > ol li > ol li b,.accountContents article .fDetail{margin-bottom: var(--sp30);}
 .accountContents #trackPanel > div:nth-of-type(2) ul li span small{width: 33%;}
 .detailContainer > div:nth-of-type(2) > div > aside div > div a{max-width: 140px;}
@@ -135,7 +135,7 @@
 .lookbookContents > div:last-of-type ul li:nth-child(2n+1) figure figcaption{right: 8.3%;}
 .lookbookContents > div:last-of-type ul li:nth-child(2n) figure figcaption{left: 8.3%;}
 .lookbookContents > div:last-of-type ul li:nth-child(2n+1) figure figcaption,.lookbookContents > div:last-of-type ul li:nth-child(2n) figure figcaption{top: 86.7%;}
-.mobile-menu-btn{padding: var(--sp15) var(--sp20);margin-bottom: var(--sp20);}
+.mobile-menu-btn{padding: var(--sp15) var(--sp20);margin-bottom: var(--sp20);color: var(--gs07);}
 .mobile-menu-btn::after{content: '';display: block;width: 16px;height: 16px;background-image: url('../images/arrow.png');position: absolute;top: 30%;bottom: 0;margin: auto 0;right: 20%;transition: transform 0.3s ease;transform: translateY(-50%) rotate(90deg);}
 .checkoutContents form fieldset:nth-of-type(2) ul li:nth-of-type(3) button{vertical-align: middle;}
 .checkoutContents form fieldset:last-of-type > div > div span:not(:first-of-type),.mobile-menu-btn::after{margin-left: var(--sp10);}
@@ -143,7 +143,7 @@
 .accountContents > div:last-of-type form ul li input#profileBirthday::-webkit-calendar-picker-indicator{left: 5%;}
 .accountContents #profilePanel{z-index: 1;}
 .accountContents #profilePanel p{padding: var(--sp70);}
-.accountContents form ul li input{line-height: 45px;}
+.accountContents form ul li input{line-height: 45px;color: var(--gs07);}
 .loginContents p{clear: both;}
 .loginContents p,.loginContents .lbtn,.continueContents b,.forgotContents form small,.accountContents article ul li:not(:last-of-type){margin-bottom: var(--sp45);}
 .loginContents .bLs14{margin: 0 0 var(--sp30) auto;}
@@ -183,9 +183,9 @@
 .accountContents > div:last-of-type form > div input:last-child,.accountContents .serviceContents > div:last-of-type input:last-of-type{background-color: var(--blue03); }
 .accountContents > div:last-of-type form > div input:last-child{padding: var(--sp20) var(--sp55);}
 .accountContents #profilePanel{max-width: 600px;width: 90%;}
-.accountContents #profilePanel input{top: 7%;}
+.accountContents #profilePanel input{top: 7%;color: var(--gs07);}
 .accountContents #profilePanel,.accountContents .ordercontents ul li:first-of-type input,.accountContents .ordercontents ul li:nth-of-type(2) input,.accountContents #returnPanel > div:last-of-type input,.accountContents > div form > div a:first-of-type{border: 1px solid var(--gs07);}
-.accountContents #trackPanel > div input{top: 2.5%;right: 3%;}
+.accountContents #trackPanel > div input{top: 2.5%;right: 3%;color: var(--gs07);}
 .accountContents .ordercontents ul > li:first-of-type{padding-bottom: var(--sp50);}
 .accountContents .ordercontents ul li > div mark{color: var(--gold04);}
 .accountContents .ordercontents ul li:first-of-type input{padding: var(--sp10) var(--sp20); background-color: var(--gold02);}
@@ -268,7 +268,7 @@
     .detailContainer > div:nth-of-type(2) > div > aside div > div strong{padding-top: 35px;}
     .detailContainer > div:nth-of-type(2) .bx-wrapper .bx-prev{left: 67.5%;}
     .detailContainer > div:last-child .bx-wrapper .bx-next{right: 0;}
-    .detailContainer #sizePanel input{right: 1%;top: 3%;}
+    .detailContainer #sizePanel input{right: 1%;top: 3%;color: var(--gs07);}
     .detailContainer,.accountContents{padding-top: 100px;} 
     #sizePanel{transform: translate(-50%, -50%);top: 100%;left: 50%;padding: var(--sp50) 0;}
     #sizePanel b{padding-left: 3%;}
@@ -345,7 +345,7 @@
     .listContainer > ul li div .bLs14 span{padding-bottom: 5px;}
     .detailContainer .bx-wrapper{margin: 0;}
     .detailContainer,.accountContents{padding-top: 250px;}
-    .detailContainer #sizePanel input{right: 1%;top: 9%;}
+    .detailContainer #sizePanel input{right: 1%;top: 9%;color: var(--gs07);}
     .detailContainer > div:nth-of-type(2) > h2 span{margin-right: 5px;}
     .detailContainer > div:nth-of-type(2) > h2{margin-bottom: var(--sp50);}
     .detailContainer > div:nth-of-type(2) > div > aside div img{width: 35%;}
