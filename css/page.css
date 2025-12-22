@@ -310,295 +310,72 @@
 }
 
 @media screen and (min-width:768px){
-    .indexContainer > div:first-of-type{
-        background: url("../images/bg_01.png") 70% center / cover no-repeat;
-        padding: 300px 0 150px 0;
-        margin-bottom: var(--sp80);
-    }
-
-    .indexContainer > div:first-of-type div h2,
-    .indexContainer > div:first-of-type div p:last-of-type,
-    .sliderArea > h3{
-        margin-bottom: var(--sp50);
-    }
-    .indexContainer > div:first-of-type div p:first-of-type{
-        margin-bottom: var(--sp30);
-    }
-    .indexContainer > div:first-of-type div p:last-of-type,.mainArea div p:first-of-type,
-    .indexContainer > div:first-of-type div p:first-of-type{
-        line-height: 24px;
-    }
-
-    .indexContainer > div:nth-of-type(2) ul::after,
-    .listContainer > ul::after,
-    .listContainer > div:last-of-type ul.listCarousel::after,
-    #sizePanel > div::after,
-    .accountContents::after{
-        content: ''; 
-        display: block; 
-        clear: both;
-    }
-
-    .sliderArea > div ul li figure figcaption dl dt{
-        margin-bottom: var(--sp25);
-    }
-
-    .indexContainer > div:nth-of-type(4){
-        flex-wrap: wrap;
-        margin-bottom: var(--sp200);
-    }
-
-    .accountContents #returnPanel.active{
-        display: flex;
-    }
-    .indexContainer > div:nth-of-type(4),
-    .indexContainer > div:nth-of-type(5){
-        margin-bottom: var(--sp200);
-    }
-    .indexContainer > div:nth-of-type(4) h2{
-        margin-bottom: var(--sp75);
-    }
-    .indexContainer > div:nth-of-type(4) h2,
-    .checkoutContents form fieldset:nth-of-type(2) > div img{
-        width: 100%;
-    }
-    .indexContainer > div:nth-of-type(5),
-    .checkoutContents form fieldset:first-of-type ul li:nth-child(3),
-    .checkoutContents form fieldset:first-of-type ul li:nth-child(4),
-    .checkoutContents form fieldset:first-of-type ul li:nth-child(7){
-        clear: both;
-    }
-    
-    .indexContainer > div:nth-of-type(5) p{
-        margin-bottom: 105px;
-        line-height: 40px;
-    }
-
-    #footerMobileMenuToggle.mobile-menu-btn::after{
-        display: inline-block;
-    }
-    .indexContainer > div:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(1){
-        background-position: center;
-    }
-
-    .indexContainer > div:nth-of-type(6) > div{
-        top: 43%;
-    }
-    .indexContainer > div:nth-of-type(7) img{
-        width: 50%;
-    }
-    .indexContainer > div:nth-of-type(7) > div{
-        max-width: 460px;
-    }
-    .indexContainer > div:nth-of-type(7) > div h2{
-        margin-bottom: var(--sp70);
-    }
-    .listContainer > div:nth-of-type(1):not(.bestsBox),
-    .listContainer > div:nth-of-type(1):not(.maisonBox),
-    .listContainer > div:nth-of-type(1):not(.perfumsBox){
-        padding: 175px 0 135px 0;
-    }
-    .listContainer > div:nth-of-type(1).maisonBox,
-    .listContainer > div:nth-of-type(1).perfumsBox{
-        padding: 175px 0 115px 0;
-    }
-    .listContainer .bestsBox{
-        padding-top: 175px;
-        padding-bottom: 200px;
-    }
-    .listContainer > .recentlyBox > h3{
-        margin-bottom: var(--sp40);
-    }
-
-    .listContainer > div:last-of-type> div ul li small{
-        margin-bottom: var(--sp10);
-    }
-    .listContainer > div:last-of-type ul li a img,
-    .accountContents .serviceContents > div:first-of-type{
-        margin-bottom: var(--sp20);
-    }
-    .listContainer > div:last-of-type ul li div h3{
-        margin-bottom: var(--sp15);
-    }
-
-    .detailContainer .bx-wrapper{
-        position: relative;
-    }
-    .listContainer > ul li:nth-of-type(1),
-    .listContainer > ul li:nth-of-type(2),
-    .listContainer > ul li:nth-of-type(3),
-    .listContainer > ul li:nth-of-type(4),
-    .listContainer > ul li:nth-of-type(5),
-    .listContainer > ul li:nth-of-type(6){
-        margin-bottom: var(--sp160);
-    }
-    .listContainer > div:nth-of-type(2){
-        max-width: 1410px;
-    }
-
-    .listContainer > div:nth-of-type(2) > div:first-child h3{
-        line-height: 50px;
-    }
-    .listContainer > ul li div .bLs14{
-        bottom: 0;
-    }
-    .listContainer > ul li div .bLs14 span{
-        padding-bottom: 5px;
-    }
-
-    .detailContainer .bx-wrapper{
-        margin: 0;
-    }
-    
-    .detailContainer,
-    .accountContents{
-        padding-top: 250px;
-    }
+    .indexContainer > div:first-of-type{background: url("../images/bg_01.png") 70% center / cover no-repeat;padding: 300px 0 150px 0;margin-bottom: var(--sp80);}
+    .indexContainer > div:first-of-type div h2,.indexContainer > div:first-of-type div p:last-of-type,.sliderArea > h3{margin-bottom: var(--sp50);}
+    .indexContainer > div:first-of-type div p:first-of-type{margin-bottom: var(--sp30);}
+    .indexContainer > div:first-of-type div p:last-of-type,.mainArea div p:first-of-type,.indexContainer > div:first-of-type div p:first-of-type{line-height: 24px;}
+    .indexContainer > div:nth-of-type(2) ul::after,.listContainer > ul::after,.listContainer > div:last-of-type ul.listCarousel::after,
+    #sizePanel > div::after,.accountContents::after{content: ''; display: block; clear: both;}
+    .sliderArea > div ul li figure figcaption dl dt{margin-bottom: var(--sp25);}
+    .indexContainer > div:nth-of-type(4){flex-wrap: wrap;margin-bottom: var(--sp200);}
+    .accountContents #returnPanel.active{display: flex;}
+    .indexContainer > div:nth-of-type(4),.indexContainer > div:nth-of-type(5){margin-bottom: var(--sp200);}
+    .indexContainer > div:nth-of-type(4) h2{margin-bottom: var(--sp75);}
+    .indexContainer > div:nth-of-type(4) h2,.checkoutContents form fieldset:nth-of-type(2) > div img{width: 100%;}
+    .indexContainer > div:nth-of-type(5),.checkoutContents form fieldset:first-of-type ul li:nth-child(3),.checkoutContents form fieldset:first-of-type ul li:nth-child(4),.checkoutContents form fieldset:first-of-type ul li:nth-child(7){clear: both;}
+    .indexContainer > div:nth-of-type(5) p{margin-bottom: 105px;line-height: 40px;}
+    #footerMobileMenuToggle.mobile-menu-btn::after{display: inline-block;}
+    .indexContainer > div:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(1){background-position: center;}
+    .indexContainer > div:nth-of-type(6) > div{top: 43%;}
+    .indexContainer > div:nth-of-type(7) img{width: 50%;}
+    .indexContainer > div:nth-of-type(7) > div{max-width: 460px;}
+    .indexContainer > div:nth-of-type(7) > div h2{margin-bottom: var(--sp70);}
+    .listContainer > div:nth-of-type(1):not(.bestsBox),.listContainer > div:nth-of-type(1):not(.maisonBox),.listContainer > div:nth-of-type(1):not(.perfumsBox){padding: 175px 0 135px 0;}
+    .listContainer > div:nth-of-type(1).maisonBox,.listContainer > div:nth-of-type(1).perfumsBox{padding: 175px 0 115px 0;}
+    .listContainer .bestsBox{padding-top: 175px;padding-bottom: 200px;}
+    .listContainer > .recentlyBox > h3{margin-bottom: var(--sp40);}
+    .listContainer > div:last-of-type> div ul li small{margin-bottom: var(--sp10);}
+    .listContainer > div:last-of-type ul li a img,.accountContents .serviceContents > div:first-of-type{margin-bottom: var(--sp20);}
+    .listContainer > div:last-of-type ul li div h3{margin-bottom: var(--sp15);}
+    .detailContainer .bx-wrapper{position: relative;}
+    .listContainer > ul li:nth-of-type(1),.listContainer > ul li:nth-of-type(2),.listContainer > ul li:nth-of-type(3),.listContainer > ul li:nth-of-type(4),.listContainer > ul li:nth-of-type(5),.listContainer > ul li:nth-of-type(6){margin-bottom: var(--sp160);}
+    .listContainer > div:nth-of-type(2){max-width: 1410px;}
+    .listContainer > div:nth-of-type(2) > div:first-child h3{line-height: 50px;}
+    .listContainer > ul li div .bLs14{bottom: 0;}
+    .listContainer > ul li div .bLs14 span{padding-bottom: 5px;}
+    .detailContainer .bx-wrapper{margin: 0;}
+    .detailContainer,.accountContents{padding-top: 250px;}
     .detailContainer #sizePanel input{right: 1%;top: 9%;}
-    .detailContainer > div:nth-of-type(2) > h2 span{
-        margin-right: 5px;
-    }
-    .detailContainer > div:nth-of-type(2) > h2{
-        margin-bottom: var(--sp50);
-    }
-    .detailContainer > div:nth-of-type(2) > div > aside div img{
-        width: 35%;
-    }
-    .detailContainer > div:nth-of-type(2) > div > div:first-of-type{
-        position: sticky;
-        top: 140px;
-    }
-    #sizePanel{
-        top: 22.22%;
-    }
-    #sizePanel .material-symbols-outlined btn_close{
-        right: 20px;
-    }
-    #sizePanel > div table caption,
-    .loginContents h2,
-    .continueContents h2,
-    .forgotContents form h2,
-    .createContents h2,
-    .emailContents form h2,
-    .accountContents > div:last-of-type h2:not(.address1){
-        margin-bottom: var(--sp45);
-    }
-    .detailAC2 .accordion-toggle.open::after{
-        content: url('../images/remove_button.svg');
-    }
-    .loginContents,
-    .forgotContents,
-    .emailContents,
-    .createContents,
-    .continueContents,
-    .checkContents,
-    .checkoutContents{
-        max-width: 625px;
-        padding-top: var(--sp260);
-    }
-    .checkContents,
-    .checkoutContents{
-        margin: 0 auto var(--sp100);
-    }
-    .checkoutContents form fieldset:first-of-type ul li:nth-child(2),
-    .checkoutContents form fieldset:first-of-type ul li:nth-child(1),
-    .checkoutContents form fieldset:first-of-type ul li:nth-child(5),
-    .checkoutContents form fieldset:first-of-type ul li:nth-child(6),
-    .checkoutContents form fieldset:last-of-type ul li:nth-child(2),
-    .checkoutContents form fieldset:last-of-type ul li:nth-child(3){
-        box-sizing: border-box; width: 49%;
-    }
-    .checkoutContents form fieldset:first-of-type ul li:nth-child(2),
-    .checkoutContents form fieldset:first-of-type ul li:nth-child(6),
-    .checkoutContents form fieldset:last-of-type ul li:nth-child(3){
-        margin-left: 2%;
-    }
-    .checkoutContents form .checkInput div > ul{
-        margin-left: var(--sp20);
-    }
-    .checkoutContents form fieldset:nth-of-type(2) > div{
-        border-top: 1px solid var(--gs07);
-        padding-top: var(--sp30);
-    }
-
-    .checkoutContents form fieldset:nth-of-type(2) > div img{
-        max-width: 155px;
-    }
-    
-    .accountContents > div:last-of-type > small{
-        margin-bottom: 60px;
-    }
-
-    .accountContents > aside{
-        position: static;
-        width: 250px;
-        top: auto;
-        left: auto;
-        z-index: auto;
-        background-color: transparent;
-        box-shadow: none;
-        height: auto;
-        max-height: none;
-        overflow-y: visible;
-        padding: 0;
-    }
-
-    .accountContents > div:last-of-type{
-        margin-left: 6%;
-    }
-    
-    .accountContents > div:last-of-type form ul li input{
-        padding: var(--sp15) var(--sp20);
-    }
-    .accountContents > div:last-of-type form ul li label,
-    .accountContents > div > ol li,
-    .accountContents .shoppingAside ul li{
-        padding: var(--sp30) 0;
-    }
-    .accountContents .ordercontents ul li img{
-        max-width: 190px;
-    }
-
-    .accountContents .ordercontents ul li > div:first-of-type p:first-of-type{
-        margin-bottom: var(--sp100);
-    }
-    .accountContents #trackPanel{
-        width: 300px;
-    }
-
-    .accountContents > div form > div a:first-of-type{
-        padding: var(--sp20) var(--sp55);
-    }
-    .accountContents > div form > div a:last-of-type{
-        padding-left: var(--sp45);
-        padding-right: var(--sp45);
-    }
-    .accountContents > button{
-        display: none;
-    }
-    .accountContents .profilePanel input{
-        top: 0;
-        right: 3%;
-    }
-    #footerMobileMenuToggle.mobile-menu-btn::after{
-        width: 24px;
-        height: 24px;
-        vertical-align: middle;
-        margin-left: 8px;
-        transition: transform 0.4s ease;
-        transform: rotate(0deg);
-    }
-
-    #footerMobileMenuToggle.mobile-menu-btn.open::after {
-        transform: rotate(180deg);
-    }
-
-    .accountContents article{
-        margin-left: 6.6%;
-    }
-    .accountContents > div:last-of-type form ul{
-        margin-bottom: var(--sp110);
-    }
+    .detailContainer > div:nth-of-type(2) > h2 span{margin-right: 5px;}
+    .detailContainer > div:nth-of-type(2) > h2{margin-bottom: var(--sp50);}
+    .detailContainer > div:nth-of-type(2) > div > aside div img{width: 35%;}
+    .detailContainer > div:nth-of-type(2) > div > div:first-of-type{position: sticky;top: 140px;}
+    #sizePanel{top: 22.22%;}
+    #sizePanel > div table caption,.loginContents h2,.continueContents h2,.forgotContents form h2,.createContents h2,.emailContents form h2,.accountContents > div:last-of-type h2:not(.address1){margin-bottom: var(--sp45);}
+    .detailAC2 .accordion-toggle.open::after{content: url('../images/remove_button.svg');}
+    .loginContents,.forgotContents,.emailContents,.createContents,.continueContents,.checkContents,.checkoutContents{max-width: 625px;padding-top: var(--sp260);}
+    .checkContents,.checkoutContents{margin: 0 auto var(--sp100);}
+    .checkoutContents form fieldset:first-of-type ul li:nth-child(2),.checkoutContents form fieldset:first-of-type ul li:nth-child(1),.checkoutContents form fieldset:first-of-type ul li:nth-child(5),.checkoutContents form fieldset:first-of-type ul li:nth-child(6),.checkoutContents form fieldset:last-of-type ul li:nth-child(2),.checkoutContents form fieldset:last-of-type ul li:nth-child(3){box-sizing: border-box; width: 49%;}
+    .checkoutContents form fieldset:first-of-type ul li:nth-child(2),.checkoutContents form fieldset:first-of-type ul li:nth-child(6),.checkoutContents form fieldset:last-of-type ul li:nth-child(3){margin-left: 2%;}
+    .checkoutContents form .checkInput div > ul{margin-left: var(--sp20);}
+    .checkoutContents form fieldset:nth-of-type(2) > div{border-top: 1px solid var(--gs07);padding-top: var(--sp30);}
+    .checkoutContents form fieldset:nth-of-type(2) > div img{max-width: 155px;}
+    .accountContents > div:last-of-type > small{margin-bottom: 60px;}
+    .accountContents > aside{position: static;width: 250px;top: auto;left: auto;z-index: auto;background-color: transparent;box-shadow: none;height: auto;max-height: none;overflow-y: visible;padding: 0;}
+    .accountContents > div:last-of-type{margin-left: 6%;}
+    .accountContents > div:last-of-type form ul li input{padding: var(--sp15) var(--sp20);}
+    .accountContents > div:last-of-type form ul li label,.accountContents > div > ol li,.accountContents .shoppingAside ul li{padding: var(--sp30) 0;}
+    .accountContents .ordercontents ul li img{max-width: 190px;}
+    .accountContents .ordercontents ul li > div:first-of-type p:first-of-type{margin-bottom: var(--sp100);}
+    .accountContents #trackPanel{width: 300px;}
+    .accountContents > div form > div a:first-of-type{padding: var(--sp20) var(--sp55);}
+    .accountContents > div form > div a:last-of-type{padding-left: var(--sp45);padding-right: var(--sp45);}
+    .accountContents > button{display: none;}
+    .accountContents .profilePanel input{top: 0;right: 3%;}
+    #footerMobileMenuToggle.mobile-menu-btn::after{width: 24px;height: 24px;vertical-align: middle;margin-left: 8px;transition: transform 0.4s ease;transform: rotate(0deg);}
+    #footerMobileMenuToggle.mobile-menu-btn.open::after{transform: rotate(180deg);}
+    .accountContents article{margin-left: 6.6%;}
+    .accountContents > div:last-of-type form ul{margin-bottom: var(--sp110);}
 }
 
 @media screen and (max-width:1279px){
