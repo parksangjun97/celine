@@ -72,7 +72,7 @@ footer select option{color: var(--gs07);}
 .inputbox > *{color: var(--gs01); text-shadow: 2px 1px 1px rgba(2,1,1,0.2); font-size: 20px; padding: 0;}
 @media screen and (max-width:767px){
     #searchPanel input.material-symbols-outlined{top: 30%;right: 7%;color: var(--gs07);}
-    #searchPanel input[type="search"]{line-height: 70px;}
+    #searchPanel input[type="search"]{line-height: 70px;width: 80%;}
     #searchPanel .material-symbols-outlined .btn_close{right: 9%;margin-top: -2px;}
     #cartPanel{width: 280px;padding-bottom: var(--sp20);}
     #cartPanel > div:last-of-type,header > div nav ul > li ul li,header > div{padding: 0 3%;}
