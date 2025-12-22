@@ -133,6 +133,7 @@ footer select option{color: var(--gs07);}
     footer > div > div ul li a,footer > div > div address ul li{font-size: 14px;}
     footer > div div:last-child{padding-top: var(--sp30); border-top: 1px solid var(--gs01);}
     footer > div div:last-child p{margin-bottom: 35px;}
+    .inputbox > *{color: var(--gs07); text-shadow: 2px 1px 1px rgba(2,1,1,0.2); font-size: 20px; padding: 0;}
 }
 
 @media screen and (min-width:768px){
