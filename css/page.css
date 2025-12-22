@@ -222,446 +222,91 @@
 
 
 @media screen and (max-width:767px){
-
-    .listContainer > ul li div .bLs14 span{
-        padding-bottom: 5px;
-    }
-
-    .detailAC li h3.open::after,
-    .detailAC2 .accordion-toggle.open::after{
-        display: inline-block;
-    }
-    .listContainer > div:nth-of-type(2) > div:first-child h3{
-        line-height: 50px;
-    }
-
-    #sizePanel > div,
-    .mainArea div,
-    .learnArea,
-    .sliderArea,
-    .indexContainer > div:first-of-type > div,
-    .indexContainer > div:nth-of-type(2),
-    .indexContainer > div:nth-of-type(7),
-    .indexContainer > div:nth-of-type(5),
-    .indexContainer > div:nth-of-type(4),
-    .listContainer > .recentlyBox > div,
-    .handbagContainer,
-    .minibagsContainer,
-    .coatsContainer,
-    .jacketContainer,
-    .pantsContainer,
-    .sneakersContainer,
-    .bootsContainer,
-    .knitContainer,
-    .maisonContainer,
-    .ringsContainer,
-    .earringContainer,
-    .necklacesContainer,
-    .perfumsContainer,
-    .loafersContainer,
-    .detailContainer,
-    .accountContents > div:last-of-type,
-    .accountContents article{
-        padding: 0 3%;
-    }
-
-    [class$="Container"]:not(.listContainer),
-    .indexContainer > div:first-of-type{
-        padding-top: 90px;
-        padding-bottom: 50px;
-    }
-    .indexContainer > div:first-of-type{
-        background-image: url("../images/mbg_01.png");
-    }
-    .indexContainer > div:first-of-type,
-    .indexContainer > div:nth-of-type(4) h2,
-    .listContainer > div:nth-of-type(1):not(.bestsBox) > div h2,
-    .detailContainer > div:nth-of-type(2) > div > div:first-of-type,
-    .accountContents form > ul{
-        margin-bottom: var(--sp40);
-    }
-    .indexContainer > div:first-of-type > div h2{
-        margin-bottom: var(--sp45);
-    }
-    .indexContainer > div:first-of-type > div h2,
-    .indexContainer > div:nth-of-type(7) > div p{
-        line-height: 40px;
-    }
-
-    .detailAC li h3.open{
-        font-size: 14px;
-    }
-    .indexContainer > div:first-of-type p,
-    .indexContainer > div:nth-of-type(5) p,
-    .listContainer > div:last-of-type ul li div h3,
-    .detailContainer > div:nth-of-type(2) > div > aside div > div b,
-    .detailContainer > div:nth-of-type(2) > h2,
-    .accountContents .serviceContents p,
-    .accountContents > div > ol li:nth-of-type(3) span,
-    .accountContents > div > ol li:last-of-type span,
-    .checkContents div > div small{
-        line-height: 24px;
-    }
-    .indexContainer > div:first-of-type p:first-of-type,
-    .indexContainer > div:first-of-type p:last-of-type,
-    .sliderArea > h3,
-    .detailContainer > div:nth-of-type(2) > h2,
-    #sizePanel > div table:not(:last-of-type),
-    .accountContents .ordercontents ul li > div:nth-of-type(2),
-    .accountContents .ordercontents ul li > div:nth-of-type(2) p,
-    .checkoutContents form fieldset:nth-of-type(2) > div img,
-    .accountContents > div:last-of-type h2:not(.address1){
-        margin-bottom: var(--sp30);
-    }
-    
-    .indexContainer > div:first-of-type a,
-    .indexContainer > div:nth-of-type(2) ul li figure figcaption dl dd:last-of-type{
-        margin-left: auto;
-    }
-
-    .indexContainer > div:nth-of-type(2) ul li,
-    .listContainer > ul li:not(:last-of-type){
-        margin-bottom: var(--sp60);
-    }
-    .indexContainer > div:nth-of-type(2) ul li figure figcaption dl dd:last-of-type{
-        width: 105px;
-    }
-    .indexContainer > div:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1),
-    .indexContainer > div:nth-of-type(4) > div:nth-of-type(1) > div a:first-of-type,
-    .indexContainer > div:nth-of-type(4) > div:nth-of-type(1) > div,
-    .indexContainer > div:nth-of-type(2) ul li figure figcaption dl dd:not(:last-of-type),
-    .listContainer > div:last-of-type ul li a img,
-    .detailContainer > div:nth-of-type(2) > div > aside div > div b,
-    .detailContainer > div:nth-of-type(2) > h2 span,
-    .accountContents .serviceContents > input:first-of-type,
-    .accountContents .serviceContents > div:first-of-type,
-    .accountContents .ordercontents ul li img,
-    .accountContents .ordercontents ul li > div:first-of-type,
-    .accountContents > div:last-of-type form ul li:nth-of-type(3) input,
-    .accountContents .ordercontents ul li > div:first-of-type p:first-of-type{
-        margin-bottom: var(--sp20);
-    }
-
-    .sliderArea > div ul li figure figcaption dl dt,
-    .listContainer > div:last-of-type ul li div h3{
-        margin-bottom: var(--sp15);
-    }
-    .bestCarousel li{
-        background-color: var(--gs01);
-    }
-    
-    .indexContainer > div:nth-of-type(4){
-        margin-bottom: var(--sp180);
-    }
-    
-    .indexContainer > div:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1){
-        padding-bottom: var(--sp30);
-    }
-    .indexContainer > div:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(1){
-        background-image: url("../images/goods_04.png");
-        line-height: 600px;   
-    }
-    .indexContainer > div:nth-of-type(4) a{        
-        aspect-ratio: 16 / 9;
-        background-position: center;
-        align-items: flex-end;
-    }
-
-    
-    .indexContainer > div:nth-of-type(4) a,
-    .indexContainer > div:nth-of-type(7) img,
-    .detailContainer > div:nth-of-type(2) > div > aside,
-    .detailContainer > div:nth-of-type(2) > div > aside div > div a,
-    .detailContainer > div:nth-of-type(2) ul li img,
-    .detailContainer > div:nth-of-type(2) > div > aside div img,
-    #sizePanel > div table,
-    .accountContents .serviceContents > input:first-of-type,
-    .accountContents .ordercontents ul li img,
-    .accountContents > div > ol li span,
-    .checkoutContents form fieldset:nth-of-type(2) > div img,
-    .accountContents aside{
-        width: 100%;
-    }
-
-
-    .indexContainer > div:nth-of-type(5){
-        margin-bottom: var(--sp100);
-    }
-    
-    .indexContainer > div:nth-of-type(5) p,
-    .indexContainer > div:nth-of-type(7) > div,
-    .listContainer > div:nth-of-type(1) > div p,
-    .detailContainer > div:nth-of-type(2) > div > aside div img,
-    .accountContents > div:last-of-type > small{
-        margin-bottom: var(--sp50);
-    }
-    
-    .indexContainer > div:nth-of-type(6) > div{
-        top: 40%;
-    }
-
-    .indexContainer > div:nth-of-type(7) h2,
-    #sizePanel > div table caption{
-        margin-bottom: var(--sp25);
-    }
-    .listContainer > div:nth-of-type(1) {
-        padding: var(--sp145) 3% var(--sp200);
-    }
-    .listContainer > div:nth-of-type(2) {
-        margin: 0 auto 35px;
-        padding: 0 2.9%;
-    }
-    .listContainer > ul li:nth-of-type(9){
-        margin-top: var(--sp80);
-    }
-    .listContainer > div:last-of-type .bx-wrapper .bx-prev{
-        left: -3%;
-    }
-    .listContainer .bestsUl{
-        margin-bottom: var(--sp110);
-    }
-    .listContainer > div:nth-of-type(1):not(.bestsBox) > div h2,
-    .listContainer > div:nth-of-type(1) > div p{
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    }
-    .listContainer > div:nth-of-type(1) > div p{
-        line-height: 30px;
-    }
-    .listContainer > ul{
-        padding: 0 3% 0;
-        margin: 0 auto var(--sp100);
-    }
-    .listContainer > ul li div::after{
-        clear: both;
-        display: block;
-        content: '';
-    }
-    .listContainer > ul li div .bLs14{
-        margin-top: var(--sp40);
-    }
-    .listContainer > div:last-of-type> div ul li small,
-    .accountContents > div:last-of-type form ul li:nth-of-type(3) label,
-    .accountContents #returnPanel label:first-of-type,
-    .accountContents > div > ol li{
-        margin-bottom: var(--sp10);
-    }
-    .bx-wrapper .bx-next{
-        right: -3%;
-    }
-
-    .detailContainer .bx-wrapper .bx-pager{
-        bottom: 5.3%;
-        width: 30.5%;
-        right: 3%;
-    }
-    .detailContainer .bx-controls{
-        width: 30%;
-        min-width: 50px;
-    } 
-    .detailContainer .bx-controls,
-    .accountContents #returnPanel > div:last-of-type input:first-of-type,
-    .accountContents #returnPanel > div:last-of-type input:last-of-type{
-        max-width: 100px;
-    }
-    
-    .detailContainer > div:nth-of-type(2) > div > aside form fieldset input[type="button"][value="-Size Guide-"]{
-        top: -38px;
-    }
-
-    .detailContainer > div:nth-of-type(2) > div > aside div > div strong{
-        padding-top: 35px;
-    }
-    
-    .detailContainer > div:nth-of-type(2) .bx-wrapper .bx-prev{
-        left: 67.5%;
-    }
-    .detailContainer > div:last-child .bx-wrapper .bx-next{
-        right: 0;
-    }
+    .listContainer > ul li div .bLs14 span{padding-bottom: 5px;}
+    .detailAC li h3.open::after,.detailAC2 .accordion-toggle.open::after{display: inline-block;}
+    .listContainer > div:nth-of-type(2) > div:first-child h3{line-height: 50px;}
+    #sizePanel > div,.mainArea div,.learnArea,.sliderArea,.indexContainer > div:first-of-type > div,.indexContainer > div:nth-of-type(2),.indexContainer > div:nth-of-type(7),.indexContainer > div:nth-of-type(5),.indexContainer > div:nth-of-type(4),.listContainer > .recentlyBox > div,.handbagContainer,.minibagsContainer,.coatsContainer,.jacketContainer,.pantsContainer,.sneakersContainer,.bootsContainer,.knitContainer,.maisonContainer,.ringsContainer,.earringContainer,.necklacesContainer,.perfumsContainer,.loafersContainer,.detailContainer,.accountContents > div:last-of-type,.accountContents article{padding: 0 3%;}
+    [class$="Container"]:not(.listContainer),.indexContainer > div:first-of-type{padding-top: 90px;padding-bottom: 50px;}
+    .indexContainer > div:first-of-type{background-image: url("../images/mbg_01.png");}
+    .indexContainer > div:first-of-type,.indexContainer > div:nth-of-type(4) h2,.listContainer > div:nth-of-type(1):not(.bestsBox) > div h2,.detailContainer > div:nth-of-type(2) > div > div:first-of-type,.accountContents form > ul{margin-bottom: var(--sp40);}
+    .indexContainer > div:first-of-type > div h2{margin-bottom: var(--sp45);}
+    .indexContainer > div:first-of-type > div h2,.indexContainer > div:nth-of-type(7) > div p{line-height: 40px;}
+    .detailAC li h3.open{font-size: 14px;}
+    .indexContainer > div:first-of-type p,.indexContainer > div:nth-of-type(5) p,.listContainer > div:last-of-type ul li div h3,.detailContainer > div:nth-of-type(2) > div > aside div > div b,.detailContainer > div:nth-of-type(2) > h2,.accountContents .serviceContents p,.accountContents > div > ol li:nth-of-type(3) span,.accountContents > div > ol li:last-of-type span,.checkContents div > div small{line-height: 24px;}
+    .indexContainer > div:first-of-type p:first-of-type,.indexContainer > div:first-of-type p:last-of-type,.sliderArea > h3,.detailContainer > div:nth-of-type(2) > h2,#sizePanel > div table:not(:last-of-type),.accountContents .ordercontents ul li > div:nth-of-type(2),.accountContents .ordercontents ul li > div:nth-of-type(2) p,.checkoutContents form fieldset:nth-of-type(2) > div img,.accountContents > div:last-of-type h2:not(.address1){margin-bottom: var(--sp30);}
+    .indexContainer > div:first-of-type a,.indexContainer > div:nth-of-type(2) ul li figure figcaption dl dd:last-of-type{margin-left: auto;}
+    .indexContainer > div:nth-of-type(2) ul li,.listContainer > ul li:not(:last-of-type){margin-bottom: var(--sp60);}
+    .indexContainer > div:nth-of-type(2) ul li figure figcaption dl dd:last-of-type{width: 105px;}
+    .indexContainer > div:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1),.indexContainer > div:nth-of-type(4) > div:nth-of-type(1) > div a:first-of-type,.indexContainer > div:nth-of-type(4) > div:nth-of-type(1) > div,.indexContainer > div:nth-of-type(2) ul li figure figcaption dl dd:not(:last-of-type),.listContainer > div:last-of-type ul li a img,.detailContainer > div:nth-of-type(2) > div > aside div > div b,.detailContainer > div:nth-of-type(2) > h2 span,.accountContents .serviceContents > input:first-of-type,.accountContents .serviceContents > div:first-of-type,.accountContents .ordercontents ul li img,.accountContents .ordercontents ul li > div:first-of-type,.accountContents > div:last-of-type form ul li:nth-of-type(3) input,.accountContents .ordercontents ul li > div:first-of-type p:first-of-type{margin-bottom: var(--sp20);}
+    .sliderArea > div ul li figure figcaption dl dt,.listContainer > div:last-of-type ul li div h3{margin-bottom: var(--sp15);}
+    .bestCarousel li{background-color: var(--gs01);}
+    .indexContainer > div:nth-of-type(4){margin-bottom: var(--sp180);}
+    .indexContainer > div:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1){padding-bottom: var(--sp30);}
+    .indexContainer > div:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(1){background-image: url("../images/goods_04.png");line-height: 600px;}
+    .indexContainer > div:nth-of-type(4) a{aspect-ratio: 16 / 9;background-position: center;align-items: flex-end;}
+    .indexContainer > div:nth-of-type(4) a,.indexContainer > div:nth-of-type(7) img,.detailContainer > div:nth-of-type(2) > div > aside,.detailContainer > div:nth-of-type(2) > div > aside div > div a,.detailContainer > div:nth-of-type(2) ul li img,.detailContainer > div:nth-of-type(2) > div > aside div img,#sizePanel > div table,.accountContents .serviceContents > input:first-of-type,.accountContents .ordercontents ul li img,.accountContents > div > ol li span,.checkoutContents form fieldset:nth-of-type(2) > div img,.accountContents aside{width: 100%;}
+    .indexContainer > div:nth-of-type(5){margin-bottom: var(--sp100);}
+    .indexContainer > div:nth-of-type(5) p,.indexContainer > div:nth-of-type(7) > div,.listContainer > div:nth-of-type(1) > div p,.detailContainer > div:nth-of-type(2) > div > aside div img,.accountContents > div:last-of-type > small{margin-bottom: var(--sp50);}
+    .indexContainer > div:nth-of-type(6) > div{top: 40%;}
+    .indexContainer > div:nth-of-type(7) h2,#sizePanel > div table caption{margin-bottom: var(--sp25);}
+    .listContainer > div:nth-of-type(1){padding: var(--sp145) 3% var(--sp200);}
+    .listContainer > div:nth-of-type(2){margin: 0 auto 35px;padding: 0 2.9%;}
+    .listContainer > ul li:nth-of-type(9){margin-top: var(--sp80);}
+    .listContainer > div:last-of-type .bx-wrapper .bx-prev{left: -3%;}
+    .listContainer .bestsUl{margin-bottom: var(--sp110);}
+    .listContainer > div:nth-of-type(1):not(.bestsBox) > div h2,.listContainer > div:nth-of-type(1) > div p{text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);}
+    .listContainer > div:nth-of-type(1) > div p{line-height: 30px;}
+    .listContainer > ul{padding: 0 3% 0;margin: 0 auto var(--sp100);}
+    .listContainer > ul li div::after{clear: both;display: block;content: '';}
+    .listContainer > ul li div .bLs14{margin-top: var(--sp40);}
+    .listContainer > div:last-of-type> div ul li small,.accountContents > div:last-of-type form ul li:nth-of-type(3) label,.accountContents #returnPanel label:first-of-type,.accountContents > div > ol li{margin-bottom: var(--sp10);}
+    .bx-wrapper .bx-next{right: -3%;}
+    .detailContainer .bx-wrapper .bx-pager{bottom: 5.3%;width: 30.5%;right: 3%;}
+    .detailContainer .bx-controls{width: 30%;min-width: 50px;} 
+    .detailContainer .bx-controls,.accountContents #returnPanel > div:last-of-type input:first-of-type,.accountContents #returnPanel > div:last-of-type input:last-of-type{max-width: 100px;} 
+    .detailContainer > div:nth-of-type(2) > div > aside form fieldset input[type="button"][value="-Size Guide-"]{top: -38px;}
+    .detailContainer > div:nth-of-type(2) > div > aside div > div strong{padding-top: 35px;}
+    .detailContainer > div:nth-of-type(2) .bx-wrapper .bx-prev{left: 67.5%;}
+    .detailContainer > div:last-child .bx-wrapper .bx-next{right: 0;}
     .detailContainer #sizePanel input{right: 1%;top: 3%;}
-    .detailContainer,
-    .accountContents{
-        padding-top: 100px;
-    }
-    
-    #sizePanel{
-        transform: translate(-50%, -50%);
-        top: 100%;
-        left: 50%;
-        padding: var(--sp50) 0;
-    }
-    #sizePanel b{
-        padding-left: 3%;
-    }
-    #sizePanel > div table:nth-of-type(2) th{
-        width: 30px;
-    }
-    #sizePanel > div table:not(:first-child),
-    .accountContents > div form > div a:last-of-type{
-        margin-left: 2%;
-    }
-    #sizePanel > div table tbody tr{
-        line-height: 25px;
-    }
-    #sizePanel .material-symbols-outlined btn_close{
-        right: 3%;
-    }
-    .detailAC li h3::after,
-    .detailAC2 .accordion-toggle::after{
-        margin-left: 8px;
-        transform: rotate(0deg);
-    }
-    .detailAC li h3::after,
-    .detailAC2 .accordion-toggle::after,
-    .detailAC li h3.open::after,
-    .detailAC2 .accordion-toggle.open::after{
-        vertical-align: middle;
-    }
-
-
-
-    .detailAC li h3.open::after,
-    .detailAC2 .accordion-toggle.open::after{
-        content: url('../images/remove_button.svg');
-        width: 24px;
-        height: 24px;
-        margin-left: 8px;
-        transition: transform 0.4s ease;
-    }
-    .detailAC li h3.open::after,
-    .detailAC2 .accordion-toggle.open::after{
-        transform: rotate(180deg);
-    }
-    .detailAC li h3.open::after{
-        content: url('../images/remove_button.svg');
-    }
-
-    .accountContents #profilePanel{
-        left: 5%;
-    }
-    .accountContents aside ul{
-        padding: 0 5%;
-    }
-    
-    .accountContents .serviceContents > div:first-of-type,
-    .createContents > form div{
-        align-items: center;
-    }
-
-    .accountContents .serviceContents > div label{
-        margin-left: var(--sp15);
-    }
-
-    .accountContents .serviceContents p{
-        margin-bottom: var(--sp85);
-    }
-    .accountContents .ordercontents ul li > div:nth-of-type(2),
-    .accountContents > div > ol li{
-        flex-direction: column;
-    }
-
-    .accountContents .ordercontents ul li > div:nth-of-type(2) input{
-        order: 2;
-    }
-
-    .accountContents .ordercontents ul li > div:nth-of-type(2) p{
-        order: 1;
-    }
-
-    
-    
-    .accountContents #trackPanel{
-        z-index: 1;
-        top: 50%;
-        right: 2.8%;
-        width: 260px;
-    }
-    
-    .accountContents #returnPanel input[type="radio"]{
-        margin-right: 5px;
-    }
-    .accountContents #returnPanel label{
-        vertical-align: top;
-        width: calc(100% - 30px);
-    }
-
-    .accountContents > div > ol{
-        margin-bottom: var(--sp55);
-    }
-    .accountContents > div > ol li{
-        align-items: flex-start;
-    }
-    
-    .accountContents > div > ol li span{
-        margin-top: var(--sp20);
-    }
-
-
-    .loginContents,
-    .forgotContents,
-    .emailContents,
-    .createContents,
-    .continueContents,
-    .checkContents,
-    .checkoutContents{
-        padding: 100px 3% 65px 3%;
-    }
-
-    .loginContents h2,
-    .forgotContents form h2,
-    .continueContents h2,
-    .emailContents form h2,
-    .createContents h2,
-    .accountContents aside{
-        display: none;
-    }
-    
-    .createContents > form div{
-        gap: 15px;
-    }
-    .createContents > form div .checkbox {
-        flex-shrink: 0;
-    }
-    .checkoutContents form fieldset:nth-of-type(2) ul li:nth-of-type(3) label{
-        vertical-align: middle;
-        line-height: 17px;
-    }
-
-    .accountContents > div:last-of-type form ul li{
-        padding-top: var(--sp20);
-    }
-
-    .accountContents > div form > div a:last-of-type{
-        padding-left: var(--sp30);
-        padding-right: var(--sp30);
-    }
-    .accountContents > div > ol li,
-    .accountContents aside{
-        padding: var(--sp20) 0;
-    }
-
-    .accountContents .shoppingAside ul li{
-        padding: var(--sp30) 0;
-    }
-
-    .accountContents article{
-        margin-top: 55px;
-    }
-    .accountContents aside{
-        left: 0;
-        z-index: 10;
-        background-color: var(--gs01);
-        height: 100%;
-        overflow-y: auto;
-    }
-    .lookbookContents > div:last-of-type h3{
-        padding-left: 2.83%;
-        margin-bottom: 35px;
-        margin-top: var(--sp20);
-    }
-    .lookbookContents > div:last-of-type ul{
-        padding: 0 2.83% 0;
-}
+    .detailContainer,.accountContents{padding-top: 100px;} 
+    #sizePanel{transform: translate(-50%, -50%);top: 100%;left: 50%;padding: var(--sp50) 0;}
+    #sizePanel b{padding-left: 3%;}
+    #sizePanel > div table:nth-of-type(2) th{width: 30px;}
+    #sizePanel > div table:not(:first-child),.accountContents > div form > div a:last-of-type{margin-left: 2%;}
+    #sizePanel > div table tbody tr{line-height: 25px;}
+    .detailAC li h3::after,.detailAC2 .accordion-toggle::after{margin-left: 8px;transform: rotate(0deg);}
+    .detailAC li h3::after,.detailAC2 .accordion-toggle::after,.detailAC li h3.open::after,.detailAC2 .accordion-toggle.open::after{vertical-align: middle;}
+    .detailAC li h3.open::after,.detailAC2 .accordion-toggle.open::after{content: url('../images/remove_button.svg');width: 24px;height: 24px;margin-left: 8px;transition: transform 0.4s ease;}
+    .detailAC li h3.open::after,.detailAC2 .accordion-toggle.open::after{transform: rotate(180deg);}
+    .detailAC li h3.open::after{content: url('../images/remove_button.svg');}
+    .accountContents #profilePanel{left: 5%;}
+    .accountContents aside ul{padding: 0 5%;}
+    .accountContents .serviceContents > div:first-of-type,.createContents > form div{align-items: center;}
+    .accountContents .serviceContents > div label{margin-left: var(--sp15);}
+    .accountContents .serviceContents p{margin-bottom: var(--sp85);}
+    .accountContents .ordercontents ul li > div:nth-of-type(2),.accountContents > div > ol li{flex-direction: column;}
+    .accountContents .ordercontents ul li > div:nth-of-type(2) input{order: 2;}
+    .accountContents .ordercontents ul li > div:nth-of-type(2) p{order: 1;}
+    .accountContents #trackPanel{z-index: 1;top: 50%;right: 2.8%;width: 260px;}
+    .accountContents #returnPanel input[type="radio"]{margin-right: 5px;}
+    .accountContents #returnPanel label{vertical-align: top;width: calc(100% - 30px);}
+    .accountContents > div > ol{margin-bottom: var(--sp55);}
+    .accountContents > div > ol li{align-items: flex-start;}
+    .accountContents > div > ol li span{margin-top: var(--sp20);}
+    .loginContents,.forgotContents,.emailContents,.createContents,.continueContents,.checkContents,.checkoutContents{padding: 100px 3% 65px 3%;}
+    .loginContents h2,.forgotContents form h2,.continueContents h2,.emailContents form h2,.createContents h2,.accountContents aside{display: none;}
+    .createContents > form div{gap: 15px;}
+    .createContents > form div .checkbox{flex-shrink: 0;}
+    .checkoutContents form fieldset:nth-of-type(2) ul li:nth-of-type(3) label{vertical-align: middle;line-height: 17px;}
+    .accountContents > div:last-of-type form ul li{padding-top: var(--sp20);}
+    .accountContents > div form > div a:last-of-type{padding-left: var(--sp30);padding-right: var(--sp30);}
+    .accountContents > div > ol li,.accountContents aside{padding: var(--sp20) 0;}
+    .accountContents .shoppingAside ul li{padding: var(--sp30) 0;}
+    .accountContents article{margin-top: 55px;}
+    .accountContents aside{left: 0;z-index: 10;background-color: var(--gs01);height: 100%;overflow-y: auto;}
+    .lookbookContents > div:last-of-type h3{padding-left: 2.83%;margin-bottom: 35px;margin-top: var(--sp20);}
+    .lookbookContents > div:last-of-type ul{padding: 0 2.83% 0;}
 }
 
 @media screen and (min-width:768px){
