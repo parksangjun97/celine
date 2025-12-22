@@ -71,7 +71,7 @@ footer select{appearance: none;background: transparent;font-size: inherit;color:
 footer select option{color: var(--gs07);}
 .inputbox > *{color: var(--gs01); text-shadow: 2px 1px 1px rgba(2,1,1,0.2); font-size: 20px; padding: 0;}
 @media screen and (max-width:767px){
-    #searchPanel input.material-symbols-outlined{top: 30%;right: 7%;}
+    #searchPanel input.material-symbols-outlined{top: 30%;right: 7%;color: var(--gs07);}
     #searchPanel input[type="search"]{line-height: 70px;}
     #searchPanel .material-symbols-outlined .btn_close{right: 9%;margin-top: -2px;}
     #cartPanel{width: 280px;padding-bottom: var(--sp20);}
@@ -137,7 +137,7 @@ footer select option{color: var(--gs07);}
 }
 
 @media screen and (min-width:768px){
-    #searchPanel input.material-symbols-outlined{top: 39%;right: 7%;}
+    #searchPanel input.material-symbols-outlined{top: 39%;right: 7%; color: var(--gs07);}
     header > div,.indexContainer > div:nth-of-type(1) > div,.indexContainer > div:nth-of-type(2),.indexContainer > div:nth-of-type(3),.indexContainer > div:nth-of-type(4),.indexContainer > div:nth-of-type(7),.listContainer > [class$="Box"]:not(.recentlyBox) > div{max-width: 1200px;}
     .mui,header > div nav > ul > li > ul,header > div nav > ul > li div{display: none;}
     header > div > nav > ul > li > ul,.indexContainer > div:first-of-type div,.indexContainer > div:nth-of-type(2),.indexContainer > div:nth-of-type(4),.indexContainer > div:nth-of-type(5),.indexContainer > div:nth-of-type(7),.sliderArea,header > div{margin: 0 auto;}
