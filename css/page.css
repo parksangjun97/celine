@@ -762,9 +762,7 @@
 
 @media screen and (min-width:1280px){
 
-    [class$="Container"]:not(.listContainer){
-        margin-bottom: var(--sp200);
-    }
+    [class$="Container"]:not(.listContainer){margin-bottom: var(--sp200);}
 
     .indexContainer > div:nth-of-type(2) ul li{
         width: 32.2%; 
