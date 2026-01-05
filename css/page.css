@@ -93,8 +93,8 @@
 .detailContainer > div:nth-of-type(2) .bx-wrapper .bx-prev,.detailContainer > div:nth-of-type(2) .bx-wrapper .bx-next{top: 94%;}
 .detailContainer > div:nth-of-type(2) .bx-wrapper .bx-next{right: 5%;background-image: url('../images/rightarrowd.png');}
 .detailContainer > div:last-child{border-top: 1px solid hsl(0, 0%, 73%);padding-top: var(--sp80);}
-.detailContainer > div:last-child .bx-wrapper .bx-prev{background-image: url('../images/leftarrowr.png');}
-.detailContainer > div:last-child .bx-wrapper .bx-next{background-image: url('../images/rigtharrowr.png');}
+.detailContainer > div:last-child .bx-wrapper .bx-prev,.indexContainer .sliderArea .bx-wrapper .bx-prev{background-image: url('../images/leftarrowr.png');}
+.detailContainer > div:last-child .bx-wrapper .bx-next,.indexContainer .sliderArea .bx-wrapper .bx-next{background-image: url('../images/rigtharrowr.png');}
 .detailContainer > div:last-child .bx-wrapper .bx-prev,.detailContainer > div:last-child .bx-wrapper .bx-next,
 .accountContents #profilePanel{top: 50%;}
 .detailContainer > div:nth-of-type(2) > div > aside div > div a:hover,.accountContents .ordercontents ul li:first-of-type input:hover,.accountContents .ordercontents ul li:nth-of-type(2) input:hover,.accountContents #returnPanel > div:last-of-type input:first-of-type:hover,.accountContents #returnPanel > div:last-of-type input:last-of-type:hover{border-color: var(--gs02);}
