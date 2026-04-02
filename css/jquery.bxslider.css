@@ -97,7 +97,7 @@ ul.bxslider {
 }
 
 .bx-wrapper .bx-next{
-    background: url('../images/rightarrow.png') no-repeat;
+    background: url('/images/rightarrow.png') no-repeat;
     right: 3%;
 }
 
