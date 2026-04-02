@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CELINE</title>
+    <!-- JQuery Core -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- bxSlider file's -->
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/celine.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+    <link rel="icon" href="images/celinesymbol.svg" type="image/svg+xml">
+</head>
+<body>
+    <div id="searchPanel">
+        <div>
+            <input type="search" placeholder="SEARCH" title="search" class="bLs30">
+            <input type="button" value="close" class="material-symbols-outlined btn_close positionA bg-sizeC">
+        </div>
+    </div>
+    <div id="cartPanel">
+        <div class="displayF-sb">
+            <h2 class="bLs30">CART</h2>
+            <input type="button" value="close" class="material-symbols-outlined btn_close bg-R bg-sizeC">
+        </div>
+        <div>
+            <p class="mDs22 textC">Your order qualifies for free shipping and free returns</p>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="../images/cartorder.png" alt="cartOrder" class="floatL">
+                        <figcaption class="floatL">
+                            <h3 class="mDs16">MARINIÈRE CARDIGAN JACKET IN WOOL</h3>
+                            <dl class="rgs14">
+                                <dt class="floatL">SIZE : </dt>
+                                <dd>44</dd>
+                                <dt class="floatL">QUANTITY : </dt>
+                                <dd>1</dd>
+                                <dt class="floatL">3600 </dt>
+                                <dd>USD</dd>
+                            </dl>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <dl>
+                <dt class="mDs22">Item Subtotal: (Not Including Tax or Shipping)</dt>
+                <dd class="bLs30">3600 USD</dd>
+            </dl>
+            <a href="checkout.html" class="bLs30 displayB textC">CHECK OUT</a>
+        </div>
+    </div>
+    <header class="active">
+        <div class="displayF-sb positionMR">
+            <h1 class="positionMA"><a href="index.html" class="displayB"><img src="images/logo.png" alt="welcome to CELINE"></a></h1>
+            <nav class="texttdC">
+                <button class="mui positionMR display2mF">
+                    <span class="displayB"></span>
+                    <span class="displayB"></span>
+                    <span class="displayB"></span>
+                </button>
+                <ul class="positionMA">
+                    <li class="displaytdI">
+                        <b class="mDs16 displaymB positionMR">SHOP</b>
+                        <div class="bg-R">
+                            <ul class="lTs16 texttdL">
+                                <li class="displaytdB">
+                                    <strong class="bLs18 displaytdB">BAG</strong>
+                                    <a href="list_handbag.html" class="displaymB displaytdI">HANDBAG</a>
+                                    <a href="list_minibag.html" class="displaymB displaytdI">MINIBAG</a>
+                                </li>
+                                <li class="displaytdB">
+                                    <strong class="bLs18 displaytdB">READY TO WEAR</strong>
+                                    <a href="list_coats.html" class="displaymB displaytdI">COAT</a>
+                                    <a href="list_jacket.html" class="displaymB displaytdI">JACKET</a>
+                                    <a href="list_knitwear.html" class="displaymB displaytdI">KNITWEAR</a>
+                                    <a href="list_pants.html" class="displaymB displaytdI">PANTS AND SHORTS</a>
+                                </li>
+                                <li class="displaytdB">
+                                    <strong class="bLs18 displaytdB">SHOES</strong>
+                                    <a href="list_boots.html" class="displaymB displaytdI">BOOTS</a>
+                                    <a href="list_loafers.html" class="displaymB displaytdI">LOAFERS</a>
+                                    <a href="list_sneakers.html" class="displaymB displaytdI">SNEAKERS</a>
+                                </li>
+                                <li class="displaytdB">
+                                    <strong class="bLs18 displaytdB">JEWELLERY</strong>
+                                    <a href="list_earrings.html" class="displaymB displaytdI">EARRINGS</a>
+                                    <a href="list_necklaces.html" class="displaymB displaytdI">NECKLACES</a>
+                                    <a href="list_rings.html" class="displaymB displaytdI">RINGS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="displaytdI">
+                        <b class="mDs16 displaymB positionMR">COLLECTIONS</b>
+                        <ul class="texttdC bg-tdScover">
+                            <li><strong class="bLs38 displaytdB">COLLECTIONS LOOKBOOK</strong></li>
+                            <li><a href="lookbookWinter.html" class="lTs28 displaytdI">WINTER 2024</a></li>
+                            <li><a href="lookbookSummer.html" class="lTs28 displaytdI">SUMMER 2024</a></li>
+                        </ul>
+                    </li>
+                    <li class="displaytdI positiontdR"><a href="list_maison.html" class="mDs16 displaymB">MAISON</a></li>
+                    <li class="displaytdI positiontdR"><a href="list_perfumerie.html" class="mDs16 displaymB">PARFUMERIE</a></li>
+                </ul>
+            </nav>
+            
+            <div class="inputbox displayF-fe texttdR">
+                <input type="button" value="search" class="material-symbols-outlined bg-CR displaytdI" data-panel="search">    
+                <a href="login.html" class="material-symbols-outlined person bg-CR displaytdI">person</a>                   
+                <input type="button" value="shopping_cart" class="material-symbols-outlined bg-CR displaytdI" data-panel="cart">
+            </div>
+        </div>
+    </header>
+    
+    <section class="detailContainer">
+        <div id="sizePanel" class="positionA">
+            <b class="s18 positiondA">/ SIZE GUIDE</b>
+            <input type="button" value="close" class="material-symbols-outlined btn_close positionA bg-sizeC">
+        <div>
+            <table class="floattdL">
+                <caption class="bL">READY TO WEAR</caption>
+                <tbody>
+                    <tr class="s14">
+                        <th class="textdL">CE</th>
+                        <td class="displaydI">34</td>
+                        <td class="displaydI">36</td>
+                        <td class="displaydI">38</td>
+                        <td class="displaydI">40</td>
+                        <td class="displaydI">42</td>
+                        <td class="displaydI">44</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">FR</th>
+                        <td class="displaydI">34</td>
+                        <td class="displaydI">36</td>
+                        <td class="displaydI">38</td>
+                        <td class="displaydI">40</td>
+                        <td class="displaydI">42</td>
+                        <td class="displaydI">44</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">DE</th>
+                        <td class="displaydI">32</td>
+                        <td class="displaydI">34</td>
+                        <td class="displaydI">36</td>
+                        <td class="displaydI">42</td>
+                        <td class="displaydI">44</td>
+                        <td class="displaydI">46</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">UK</th>
+                        <td class="displaydI">6</td>
+                        <td class="displaydI">8</td>
+                        <td class="displaydI">10</td>
+                        <td class="displaydI">12</td>
+                        <td class="displaydI">14</td>
+                        <td class="displaydI">16</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">US</th>
+                        <td class="displaydI">2</td>
+                        <td class="displaydI">4</td>
+                        <td class="displaydI">6</td>
+                        <td class="displaydI">8</td>
+                        <td class="displaydI">10</td>
+                        <td class="displaydI">12</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">IT</th>
+                        <td class="displaydI">38</td>
+                        <td class="displaydI">40</td>
+                        <td class="displaydI">42</td>
+                        <td class="displaydI">44</td>
+                        <td class="displaydI">46</td>
+                        <td class="displaydI">48</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">JP</th>
+                        <td class="displaydI">7</td>
+                        <td class="displaydI">9</td>
+                        <td class="displaydI">11</td>
+                        <td class="displaydI">13</td>
+                        <td class="displaydI">15</td>
+                        <td class="displaydI">17</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">KR</th>
+                        <td class="displaydI">44</td>
+                        <td class="displaydI">55</td>
+                        <td class="displaydI">66</td>
+                        <td class="displaydI">77</td>
+                        <td class="displaydI">88</td>
+                        <td class="displaydI">99</td>
+                    </tr>
+                </tbody>
+            </table> 
+
+            <table class="floattdL">
+                <caption class="bL">SHOES</caption>
+                <tbody>
+                    <tr class="s14">
+                        <th class="textdL">CE</th>
+                        <td class="displaydI">34</td>
+                        <td class="displaydI">36</td>
+                        <td class="displaydI">38</td>
+                        <td class="displaydI">40</td>
+                        <td class="displaydI">42</td>
+                        <td class="displaydI">44</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">FR</th>
+                        <td class="displaydI">34</td>
+                        <td class="displaydI">36</td>
+                        <td class="displaydI">38</td>
+                        <td class="displaydI">40</td>
+                        <td class="displaydI">42</td>
+                        <td class="displaydI">44</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">UK</th>
+                        <td class="displaydI">1</td>
+                        <td class="displaydI">3</td>
+                        <td class="displaydI">5</td>
+                        <td class="displaydI">7</td>
+                        <td class="displaydI">9</td>
+                        <td class="displaydI">11</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">US</th>
+                        <td class="displaydI">4</td>
+                        <td class="displaydI">6</td>
+                        <td class="displaydI">8</td>
+                        <td class="displaydI">10</td>
+                        <td class="displaydI">12</td>
+                        <td class="displaydI">14</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">JP</th>
+                        <td class="displaydI">21</td>
+                        <td class="displaydI">23</td>
+                        <td class="displaydI">25</td>
+                        <td class="displaydI">27</td>
+                        <td class="displaydI">29</td>
+                        <td class="displaydI">31</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">KR</th>
+                        <td class="displaydI">210</td>
+                        <td class="displaydI">220</td>
+                        <td class="displaydI">230</td>
+                        <td class="displaydI">240</td>
+                        <td class="displaydI">250</td>
+                        <td class="displaydI">260</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="floattdL">
+                <caption class="bL">RINGS</caption>
+                <tbody>
+                    <tr class="s14">
+                        <th class="textdL">CE</th>
+                        <td class="displaydI">50</td>
+                        <td class="displaydI">52</td>
+                        <td class="displaydI">54</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">MM</th>
+                        <td class="displaydI">16</td>
+                        <td class="displaydI">17</td>
+                        <td class="displaydI">38</td>
+                    </tr>
+                    <tr class="s14">
+                        <th class="textdL">INCH</th>
+                        <td class="displaydI">0.63</td>
+                        <td class="displaydI">0.65</td>
+                        <td class="displaydI">0.68</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+
+
+        <div>
+            <h2 class="mDs18"><span class="display2mF">/ KNITWEAR /&nbsp;</span>CROPPED CARDIGAN IN POINTELLE COTTON</h2>
+            <div class="displaydF">
+                <div>
+                    <ul class="detailSlider">
+                        <li><img src="images/detailknit2_01.png" alt="CROPPED CARDIGAN IN POINTELLE COTTON CENTER"></li>
+                        <li><img src="images/detailknit2_02.png" alt="CROPPED CARDIGAN IN POINTELLE COTTON BACK"></li>
+                        <li><img src="images/detailknit2_03.png" alt="CROPPED CARDIGAN IN POINTELLE COTTON HEAD"></li>
+                    </ul>
+                </div>
+                <aside>
+                    <h3 class="bLs20">CROPPED CARDIGAN IN POINTELLE COTTON</h3>
+                    <ul class="lTs16 displayB">
+                        <li>CROPPED CARDIGAN WITH TRIOMPHE EMBROLDERY</li>
+                        <li>100% COTTON</li>
+                        <li>CLASSIC FIT</li>
+                        <li>MADE IN ITALY</li>
+                        <li>CROPPED LENGTH</li>
+                        <li>6 MOTHER-OF-PEARL</li>
+                    </ul>
+                    <form action="checkout.html">
+                        <fieldset class="positionR">
+                        <legend class="s16">SIZE</legend>
+                            <input type="button" value="-Size Guide-" class="sBs14 positionA" data-panel="size">
+                            <div class="size-buttons sizeColor_n">
+                                <input type="button" value="34" class="active">
+                                <input type="button" value="36">
+                                <input type="button" value="38">
+                                <input type="button" value="40">
+                                <input type="button" value="42">
+                                <input type="button" value="44">
+                            </div>
+                            <strong class="displayB">3600 USD</strong>
+                            <input type="submit" class="dbtn" value="CHECK OUT">
+                        </fieldset>
+                    </form>
+    
+    
+    
+                    <div>
+                        <h4 class="rG textMC">ITEM WE SUGGEST</h4>
+                        <img src="images/detailknit8_01.png" alt="ITEMS WE SUGGEST" class="floattdL">
+                        <div class="floatdL">
+                            <small class="mD displayB">Tank Top With Sequin Embroidered</small>
+                            <b class="bL displayB s14mt">EMBROIDERED TANK TOP IN RIBBED</b>
+                            <strong class="bL floatL s14mt">3400 USD</strong>
+                            <a href="knitwear_08.html" class="vbtn floatR displayB">VIEW</a>
+                        </div>
+                    </div>
+    
+    
+                    <ul class="detailAC">
+                        <li>
+                            <h3 class="mDs20 displayF-sb">DETAILS</h3>
+                            <p class="rGs12">
+                                CELINE LEATHER GOODS ARE CRAFTED<br>
+                                IN THE MOST LUXURIOUS SKINS.<br>
+                                THESE LEATHERS ARE NATURAL AND UNIQUE:<br> 
+                                ANY INCIDENTAL TONAL VARIATIONS,<br> 
+                                MARKS OR VEINS ARE NATURAL FEATURES AND SHOULD NOT BE<br> 
+                                CONSIDERED AS IMPERFECTIONS.<br> 
+                                TO MAKE SURE THAT YOUR BAG AGES BEAUTIFULLY<br> 
+                                WE RECOMMEND YOU TO
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="mDs20 displayF-sb">RETURNS AND EXCHANGED</h3>
+                            <p class="rGs12">
+                                ITEMS PURCHASED FROM CELINE.COM<br> 
+                                CAN BE RETURNED FOR A REFUND<br>
+                                AT NO CHARGE, TO CELINE.COM OR<br> 
+                                CELINE FREE STANDING STORES IN THE UNITED STATES WITHIN<br> 
+                                14 DAYS FROM DELIVERY.<br>
+                                EXCHANGES ACCEPTED IN-STORE ONLY<br>
+                            </p>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+
+
+        <div>
+            <h3 class="bLs30 textC">RECOMMEND PRODUCTS</h3>
+            <ul class="recommendedCarousel knits">
+                <li>
+                    <a href="knitwear_06.html" class="displayB"><img src="images/slistknitwear_01.png" alt="CREW NECK SWEATER IN CABLE-KNIT AND SILK"></a>
+                    <div>
+                        <small class="s12 displayB">KNITWEAR</small>
+                        <h3 class="mDs18">CREW NECK SWEATER IN CABLE-KNIT AND SILK</h3>
+                        <p class="s14">CREW NECK SWEATER IN CABLE-KNIT CASHMERE SILK</p>
+                        <span class="bLs16 displayB textR">1750 USD</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="knitwear_01.html" class="displayB"><img src="images/slistknitwear_02.png" alt="MARINIERE CARDIGAN JACKET IN WOOL"></a>
+                    <div>
+                        <small class="s12 displayB">KNITWEAR</small>
+                        <h3 class="mDs18">MARINIERE CARDIGAN JACKET IN WOOL</h3>
+                        <p class="s14">Mariniere Cardigan Jacket In Wool</p>
+                        <span class="bLs16 displayB textR">3600 USD</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="knitwear_03.html" class="displayB"><img src="images/slistknitwear_03.png" alt="CREW NECK SWEATER IN STRIPED RIBBED WOOL"></a>
+                    <div>
+                        <small class="s12 displayB">KNITWEAR</small>
+                        <h3 class="mDs18">CREW NECK SWEATER IN STRIPED RIBBED WOOL</h3>
+                        <p class="s14">CROPPED CREW NECK SWEATER</p>
+                        <span class="bLs16 displayB textR">1500 USD</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="knitwear_05.html" class="displayB"><img src="images/slistknitwear_04.png" alt="TRIOMPHE V-NECK SWEATER IN CASHMERE"></a>
+                    <div>
+                        <small class="s12 displayB">KNITWEAR</small>
+                        <h3 class="mDs18">TRIOMPHE V-NECK SWEATER IN CASHMERE</h3>
+                        <p class="s14">BOXY V-NECK SWEATER IN CASHMERE</p>
+                        <span class="bLs16 displayB textR">1500 USD</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="knitwear_07.html" class="displayB"><img src="images/slistknitwear_05.png" alt="BOAT NECK MARINIERE SWEATER IN WOOL CELINE"></a>
+                    <div>
+                        <small class="s12 displayB">KNITWEAR</small>
+                        <h3 class="mDs18">BOAT NECK MARINIERE SWEATER IN WOOL CELINE</h3>
+                        <p class="s14">BOXY V-NECK SWEATER IN CASHMERE</p>
+                        <span class="bLs16 displayB textR">5300 USD</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="knitwear_02.html" class="displayB"><img src="images/slistknitwear_06.png" alt="CROPPED CARDIGAN IN POINTELLE COTTON"></a>
+                    <div>
+                        <small class="s12 displayB">KNITWEAR</small>
+                        <h3 class="mDs18">CROPPED CARDIGAN IN POINTELLE COTTON</h3>
+                        <p class="s14">CROPPED CARDIGAN WITH TRIOMPHE EMBROLDERY</p>
+                        <span class="bLs16 displayB textR">3600 USD</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div class="displaymF">
+                <h2 class="textC displaymB displaytdi"><img src="images/footerlogo.png" alt="goodbye CELINE"></h2>
+                <ul class="displaymF">
+                    <li><a href="shoppingFaq.html">FAQ</a></li>
+                    <li class="displaytdS"><a href="legalterms.html">LEGAL TERMS</a></li>
+                    <li class="displaytdS"><a href="privacypolicy.html">PRIVACY POLICY</a></li>
+                    <li class="displaytdS"><a href="supplytransparency.html">SUPPLY TRANSPARENCY</a></li>
+                </ul>
+                <address>
+                    <ul class="lT">
+                        <li>PHONE : <a href="tel:+18338474860">+1 833 847 4860</a></li>
+                        <li>CUSTOMER SERVICE : <a href="mailto:clientservice.us@celine.com">CLIENTSERVICE.US@CELINE.COM</a></li>
+                        <li>CONTACT FORM : SEND INQUIRY</li>
+                        <li>
+                            <label for="selectStore">REQUEST AN APPOINTMENT :</label>
+                            <select id="selectStore">
+                                <option value="default">SELECT A STORE</option>
+                                <option value="japan">JAPAN</option>
+                                <option value="china">CHINA</option>
+                                <option value="usa">USA</option>
+                                <option value="canada">CANADA</option>
+                                <option value="uk">UK</option>
+                                <option value="france">FRANCE</option>
+                                <option value="germany">GERMANY</option>
+                                <option value="swiss">SWISS</option>
+                                <option value="spain">SPAIN</option>
+                                <option value="denmark">DENMARK</option>
+                            </select>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="displaytdF">
+                <p class="s18 textC">©2024 CELINE. All rights reserved</p>
+                <ul class="displayF-cn">
+                    <li><a href="https://www.facebook.com/celineofficial" target="_blank" class="displayB bg-CR">facebook</a></li>
+                    <li><a href="https://x.com/celineofficial" target="_blank" class="displayB bg-CR">twitter</a></li>
+                    <li><a href="https://www.instagram.com/celine" target="_blank" class="displayB bg-CR">instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
