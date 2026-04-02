@@ -93,11 +93,11 @@ ul.bxslider {
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev{
     position: absolute;
-    background: url('../images/leftarrow.png') no-repeat;
+    background: url('/images/leftarrow.png') no-repeat;
 }
 
 .bx-wrapper .bx-next{
-    background: url('../images/rightarrow.png') no-repeat;
+    background: url('/images/rightarrow.png') no-repeat;
     right: 3%;
 }
 
