@@ -82,6 +82,7 @@ footer select option{
 .inputbox > *{color: var(--gs01); text-shadow: 2px 1px 1px rgba(2,1,1,0.2); font-size: 20px; padding: 0;}
 header.active .inputbox > *{color: var(--gs07);}
 @media screen and (max-width:767px){
+    header > div nav > ul::-webkit-scrollbar{display: none;}
     #searchPanel input.material-symbols-outlined{top: 30%;right: 7%;}
     #searchPanel input[type="search"]{line-height: 70px;}
     #searchPanel .material-symbols-outlined .btn_close{right: 9%;margin-top: -2px;}
@@ -106,7 +107,7 @@ header.active .inputbox > *{color: var(--gs07);}
     header > div nav button.mui.active span:nth-child(2){opacity: 0;}
     header > div nav button.mui.active span:nth-child(3){transform: translateY(-7px) rotate(-45deg);}
     header > div nav input[type='checkbox'].mui{display: none;}
-    header > div nav > ul{max-height: 0;overflow: hidden;transition: max-height 0.5s ease-in-out;background: var(--gs01);top: var(--sp70);left: 0;width: 100vw;height: calc(100vh - 70px);overflow-y: auto;z-index: 9;}
+    header > div nav > ul{max-height: 0;overflow: hidden;transition: max-height 0.5s ease-in-out;background: var(--gs01);top: var(--sp70);left: 0;width: 100%;height: calc(100vh - 70px);overflow-y: auto;z-index: 9;overflow-y: auto; scrollbar-gutter: stable;}
     header > div nav.active > ul,header > div nav input[type='checkbox']#mnav:checked + ul{max-height: 1000px;}
     header > div nav ul > li > b::after{content: "";right: 5%;top: 40%;transform: translateY(-50%) rotate(90deg);width: 12px;height: 12px;background: url("../images/arrow.png") no-repeat center/contain;transition: transform 0.3s ease-out;}
     header > div nav ul > li:hover > b::after{transform: translateY(-50%) rotate(270deg);}
@@ -116,7 +117,7 @@ header.active .inputbox > *{color: var(--gs07);}
     header > div nav ul > li ul > li:not(:last-of-type),footer > div div:first-of-type li:not(:last-of-type){margin-bottom: var(--sp25);}
     header > div nav > ul > li:last-of-type > a ,header > div nav > ul > li:nth-of-type(3) > a{padding: var(--sp15) var(--sp30) var(--sp15) 3%;color: var(--gs07);font-size: 16px;}
     header > div .inputbox{order: 3;margin-top: 5px;}
-    header > div nav ul > li > b{padding: var(--sp15) var(--sp30) var(--sp20) 3%;color: var(--gs06);font-size: 16px !important;}
+    header > div nav ul > li > b{padding: var(--sp15) var(--sp20) var(--sp20) 3%;color: var(--gs06);font-size: 16px !important;}
     header > div nav > ul > li ul li > strong{margin-bottom: var(--sp10);}
     header > div nav > ul > li ul li:first-of-type strong{color: var(--wine01);}
     header > div nav > ul > li ul li:nth-of-type(2) strong{color: var(--khak01);}

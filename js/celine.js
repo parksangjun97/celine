@@ -124,12 +124,12 @@ function initializeAccordionState() {
         }
     }
 
-    function updateAsideTopPosition() {
+    function updateAsideTopPosition(){
         var $toggleButton = $('#mobileMenuToggle');
-        if ($toggleButton.length) {
+        if ($toggleButton.length && $toggleButton.is(':visible')) {
             var buttonBottomPosition = $toggleButton.offset().top + $toggleButton.outerHeight(true);
             $('.account-menu-aside').css('top', buttonBottomPosition + 'px');
-        }
+    }
     }
 
     $('#mobileMenuToggle').click(function(){
