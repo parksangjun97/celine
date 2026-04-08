@@ -79,7 +79,7 @@ footer select{
 footer select option{
     color: var(--gs07);
 }
-.inputbox > *{color: var(--gs01); text-shadow: 2px 1px 1px rgba(2,1,1,1); font-size: 20px; padding: 0;}
+.inputbox > *{color: var(--gs01); text-shadow: 2px 1px 1px rgba(2,1,1,0); font-size: 20px; padding: 0;}
 header.active .inputbox > *{color: var(--gs07);}
 @media screen and (max-width:767px){
     header > div nav > ul::-webkit-scrollbar{display: none;}
