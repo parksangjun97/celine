@@ -156,18 +156,20 @@ function initializeAccordionState() {
         setMobileToggleButtonText();
         updateAsideTopPosition();
     }).resize();
-    function setupMobileMenu() {
-        const $mobileMenuButton = $('header > div nav button.mui');
-        const $mainNav = $('header > div nav');
+function setupMobileMenu() {
+    const $mobileMenuButton = $('header > div nav button.mui');
+    const $mainNav = $('header > div nav');
+    
+    const $submenuTriggers = $('header > div nav ul > li > b'); 
 
-        $mobileMenuButton.on('click', function() {
-            $(this).toggleClass('active');
-            $mainNav.toggleClass('active');
-            if (!$mainNav.hasClass('active')) {
-                $submenuTriggers.closest('li').removeClass('active');
-            }
-        });
-    }
+    $mobileMenuButton.on('click', function() {
+        $(this).toggleClass('active');
+        $mainNav.toggleClass('active');
+        if (!$mainNav.hasClass('active')) {
+            $submenuTriggers.closest('li').removeClass('active');
+        }
+    });
+}
     
     function slider(target, modeStyle, speedValue, minSlide, maxSlide, pagerbutton, swidth, smargin, autoStyle, loop, moveProduct, pagerTVal, responValue) {
         $(target).bxSlider({
